@@ -1303,6 +1303,19 @@ main {
 
 /* Nosotras page */
 
+
+.styled-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s; border-bottom: 0.3s;
+}
+
+.styled-link:hover{
+    color: var(--dark-color);
+}
+
 .bg-orange {
     background-color: var(--primary-color);
     border: 2px solid var(--dark-color);
