@@ -1296,3 +1296,39 @@ main {
 .footer .nav a + a {
     margin-left: 18px;
 }
+
+/* Nosotras page */
+
+.bg-orange {
+    background-color: var(--primary-color);
+    border: 2px solid var(--dark-color);
+}
+
+.bg-blue {
+    background-color: #9BD3D0;
+    border: 2px solid var(--dark-color);
+}
+
+.bg-yellow {
+    background-color: #FEC447;
+    border: 2px solid var(--dark-color);
+}
+
+.bg-green {
+    background-color: #C4D39B;
+    border: 2px solid var(--dark-color);
+}
+
+.card-header button {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-header button.btn-link {
+    text-decoration: none;
+    color: black;
+}
+
+.card-header button:focus {
+    outline: none;
+}
