@@ -42,3 +42,4 @@ $(document).ready(function() {
         topOffset: -70           // offste (in px) for fixed top navigation
       });
 });
+
