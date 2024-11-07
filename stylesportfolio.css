@@ -1,4 +1,5 @@
-/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -26,8 +27,14 @@ header {
 
 h1 {
     color: #373737;
-    font-size: 3rem;
+    font-size: 3rem; 
     margin-bottom: 2rem;
+    font-family: "Jost", sans-serif;
+}
+
+
+a{
+    color: #FF651C;
 }
 
 p,
