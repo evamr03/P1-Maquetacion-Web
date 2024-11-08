@@ -7,13 +7,16 @@
     font-family: "Jost", sans-serif;
 }
 
-html,
-body {
+main {
     max-width: 1200px;
     margin: 0 auto;
-    background: linear-gradient(45deg, #faf4e6, #faf4e6);
     padding: 15px;
 }
+
+body {
+    background: linear-gradient(45deg, #faf4e6, #faf4e6);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -29,7 +32,7 @@ h1 {
     text-align: center
 }
 
-/* Main CSS */
+/* Grid Portfolio */
 .grid-wrapper {
     padding: 1rem 0;
     display: grid;
@@ -44,10 +47,6 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
-/* .grid-wrapper > div:nth-child(even) {
-    opacity: 0 !important;
-} */
 
 .grid-wrapper > div > img {
     width: 100%;
