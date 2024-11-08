@@ -7,16 +7,63 @@
        
     <link rel="icon" href="assets/img/favicon.png" type="image/png">
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/stylesportfolio.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
      <!-- SCROLL REVEAL JS -->
         <script src="https://unpkg.com/scrollreveal"></script>
     </head>
     <body>
-        <header>
-            <h1>Vintage <a>Studio</a></h1>
-        </header>
+     <!-- Header -->
+      <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <!-- Brand Name/Logo -->
+                <a href="index.html" class="navbar-brand">
+                    <h4 class="mb-0">Vintage <span class="text-primary">Studio</span></h4>
+                </a>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li>
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="sobrenosotras.html" class="nav-link">Nosotras</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="nav-link">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="nav-link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Button -->
+                <div class="ms-auto d-none d-lg-block">
+                    <a class="colored-btn" href="#contact" data-scroll-nav="5">Contáctanos</a>
+                </div>
+                <!-- Mobile Menu Toggle -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
         <main>
+            <section id="home" class="home-section" data-scroll-index="0">
+            <div class="container">
+            <h1>Portfolio <span class="text-primary">Vintage</span></h1>
+            </div>
+            </section>
             <div class="grid-wrapper">
                 <div>
                     <img
@@ -100,9 +147,13 @@
                 </div>
             </div>
         </main>
-       
+        
+        <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/vendor/jquery/jquery-3.5.1.min.js"></script>
+        <script src="assets/vendor/one-page/scrollIt.min.js"></script>
+        
         <!-- JAVASCRIPT PROPIO -->
-        <script src="assets/js/scriptportfolio.js"></script>
+        <script src="assets/js/script.js"></script>
          
     </body>
 </html>
